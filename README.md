@@ -6,7 +6,7 @@
 
 ## Overview
 
-**Tier Forge** is a modern, mobile-friendly web application that lets you create custom tier lists effortlessly — no installations, signups, or ads.
+**TIER FORGE** is a modern, mobile-friendly web application that lets you create custom tier lists effortlessly — no installations, signups, or ads.
 
 Whether you're ranking your favorite games, snacks, characters, or hot takes, this tool gets out of your way and lets you focus on what matters.
 
@@ -64,14 +64,19 @@ Whether you're ranking your favorite games, snacks, characters, or hot takes, th
 
 ---
 
+## Support
+
+If you like TIER FORGE, please star and follow the project on github. Also, any input would be very much appreciated. 
+
+---
 ## Installation
 
 OH MY GOODNESS!!! YOU DON"T NEED TO INSTALL ANYTHING!!! This app runs **fully in the browser**. No build tools required.
 
-### 🔗 Use Online
+### Use Online
 You can [host it yourself](https://bloyomind.github.io/Open-Source-Tier-List-Maker/) or open the HTML file locally.
 
-### 🧪 Local Use
+### Local Use
 Clone the repo and open `index.html` in your browser:
 
 ```bash
