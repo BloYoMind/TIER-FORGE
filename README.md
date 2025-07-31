@@ -69,7 +69,7 @@ Whether you're ranking your favorite games, snacks, characters, or hot takes, th
 OH MY GOODNESS!!! YOU DON"T NEED TO INSTALL ANYTHING!!! This app runs **fully in the browser**. No build tools required.
 
 ### 🔗 Use Online
-You can [host it yourself](#self-hosting) or open the HTML file locally.
+You can [host it yourself](https://bloyomind.github.io/Open-Source-Tier-List-Maker/) or open the HTML file locally.
 
 ### 🧪 Local Use
 Clone the repo and open `index.html` in your browser:
