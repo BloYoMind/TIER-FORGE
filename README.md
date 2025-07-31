@@ -66,9 +66,11 @@ Whether you're ranking your favorite games, snacks, characters, or hot takes, th
 
 ## Support
 
-If you like TIER FORGE, please star and follow the project on github. Also, any input would be very much appreciated. 
+If you like **TierForge**, please [star the repository](https://github.com/bloyomind/Open-Source-Tier-List-Maker) and consider following the project on GitHub.  
+Your feedback, suggestions, and contributions are always welcome and appreciated!
 
 ---
+
 ## Installation
 
 OH MY GOODNESS!!! YOU DON"T NEED TO INSTALL ANYTHING!!! This app runs **fully in the browser**. No build tools required.
