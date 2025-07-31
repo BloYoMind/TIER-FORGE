@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Advanced Tier List Maker</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Tier List Maker</h1>
+
+    <div class="controls">
+      <button id="add-tier" class="btn">Add Tier</button>
+      <button id="export" class="btn green">Export PNG</button>
+      <button id="save-json" class="btn">Save JSON</button>
+      <button id="load-json-btn" class="btn">Load JSON</button>
+      <button id="new-item-btn" class="btn">New Item</button>
+      <input type="file" id="load-json-file" accept="application/json" style="display:none" />
+      <input type="file" id="item-upload" accept="image/*" multiple style="display:none;" />
+    </div>
+
+    <div id="tier-list" class="tier-list" aria-label="Tier list" role="list"></div>
+
+    <div class="item-pool-section">
+      <h2>Item Pool</h2>
+      <div id="item-pool" class="item-pool" aria-label="Item pool" role="list"></div>
+    </div>
+  </div>
+
+  <!-- Color Picker Popup -->
+  <div id="color-picker" class="color-picker hidden" role="listbox" tabindex="0"></div>
+
+  <!-- New Item Modal -->
+  <div id="item-modal" class="modal hidden" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-content">
+      <h2 id="modal-title">Create New Item</h2>
+      <div class="option-section">
+        <label><input type="radio" name="item-type" value="text" checked /> Text</label>
+        <label><input type="radio" name="item-type" value="image" /> Image</label>
+      </div>
+
+      <div id="text-input-area">
+        <input type="text" id="item-text" placeholder="Enter item text" autocomplete="off" />
+      </div>
+
+      <div id="image-input-area" class="hidden">
+        <input type="file" id="image-upload" accept="image/*" />
+      </div>
+
+      <div class="modal-buttons">
+        <button id="create-item" class="btn green">Add Item</button>
+        <button id="cancel-item" class="btn">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

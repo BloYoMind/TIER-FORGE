@@ -1,0 +1,258 @@
+body {
+  background-color: #111827;
+  color: #f3f4f6;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 1rem;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.btn.green {
+  background-color: #10b981;
+}
+
+.btn:hover {
+  filter: brightness(110%);
+}
+
+.tier-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tier {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.tier-label {
+  width: 120px;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.tier-label input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  user-select: auto;
+}
+
+.tier-items {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: #1f2937;
+  padding: 0.5rem;
+  border-top-right-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+  min-height: 80px;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.item {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  cursor: grab;
+  border: 2px solid #374151;
+  border-radius: 0.375rem;
+  background-color: #374151;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  overflow: hidden;
+  position: relative;
+  touch-action: manipulation;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.item .delete-item-btn {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-color: #dc2626;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  display: none;
+}
+
+.item:hover .delete-item-btn,
+.item:focus-within .delete-item-btn {
+  display: block;
+}
+
+.delete-btn {
+  margin-left: 0.5rem;
+  background-color: #dc2626;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.item-pool-section h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.item-pool {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #1f2937;
+  border-radius: 0.375rem;
+  min-height: 80px;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+/* Color Picker Styling */
+.color-picker {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  background: #1f2937;
+  padding: 5px;
+  border-radius: 0.375rem;
+  gap: 5px;
+  box-shadow: 0 0 5px #000;
+  z-index: 1000;
+}
+
+.color-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+  transition: transform 0.15s ease;
+}
+
+.color-swatch:hover,
+.color-swatch:focus {
+  transform: scale(1.2);
+  outline: none;
+}
+
+/* Modal Styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 23, 42, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background: #1f2937;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  width: 320px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modal-content input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 0.375rem;
+  color: white;
+  font-size: 1rem;
+  user-select: auto;
+}
+
+.option-section label {
+  margin-right: 1rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
