@@ -178,17 +178,18 @@ body {
 }
 
 /* Color Picker Styling */
-.color-picker {
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  width: 160px;
-  background: #1f2937;
-  padding: 5px;
-  border-radius: 0.375rem;
-  gap: 5px;
-  box-shadow: 0 0 5px #000;
-  z-index: 1000;
+.color-picker { 
+  position: absolute; 
+  display: flex; 
+  flex-wrap: wrap; 
+  width: 160px; 
+  background: #1f2937; 
+  padding: 5px; 
+  border-radius: 0.375rem; 
+  gap: 5px; 
+  box-shadow: 0 0 5px #000; 
+  z-index: 1000; 
+  visibility: hidden; 
 }
 
 .color-swatch {
@@ -256,3 +257,4 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
