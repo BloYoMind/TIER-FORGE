@@ -54,18 +54,17 @@ function createColorPicker() {
 }
 
 function showColorPicker(x, y, label) {
-  activeLabel = label;
-  colorPickerEl.style.left = x + "px";
-  colorPickerEl.style.top = y + "px";
-  colorPickerEl.classList.remove("hidden");
-  colorPickerEl.focus();
+activeLabel = label;
+colorPickerEl.style.left = x + "px";
+colorPickerEl.style.top = y + "px";
+colorPickerEl.style.visibility = "visible";
+colorPickerEl.focus();
 }
 
 function hideColorPicker() {
-  colorPickerEl.classList.add("hidden");
-  activeLabel = null;
+colorPickerEl.style.visibility = "hidden";
+activeLabel = null;
 }
-
 document.addEventListener("click", (e) => {
   if (!colorPickerEl.contains(e.target) && (!activeLabel || !activeLabel.contains(e.target))) {
     hideColorPicker();
@@ -442,3 +441,4 @@ createColorPicker();
 ["S", "A", "B", "C", "D"].forEach((name, i) => {
   createTier(name, presetColors[i]);
 });
+
