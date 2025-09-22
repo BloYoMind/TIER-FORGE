@@ -66,7 +66,7 @@ Whether you're ranking your favorite games, snacks, characters, or hot takes, th
 
 ## Support
 
-If you like **TierForge**, please [star the repository](https://github.com/bloyomind/Open-Source-Tier-List-Maker) and consider following me on GitHub.  
+If you like **TierForge**, please star the repository and consider following me on GitHub.  
 Your feedback, suggestions, and contributions are always welcome and appreciated!
 
 ---
@@ -76,7 +76,7 @@ Your feedback, suggestions, and contributions are always welcome and appreciated
 OH MY GOODNESS!!! YOU DON"T NEED TO INSTALL ANYTHING!!! This app runs **fully in the browser**. No build tools required.
 
 ### Use Online
-You can [host it yourself](https://bloyomind.github.io/Open-Source-Tier-List-Maker/) or open the HTML file locally.
+You can [host it yourself](https://bloyomind.github.io/TIER-FORGE/) or open the HTML file locally.
 
 ### Local Use
 Clone the repo and open `index.html` in your browser:
