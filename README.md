@@ -1,85 +1,89 @@
-# TIER FORGE
+# **TIER FORGE**
+### **_Coming Late 2026: Tier Forge Desktop App!_**
 
-**A clean, powerful, and open-source web-based tier list maker. Ad-free. No account needed. Built for everyone.**
-
----
-
-## Overview
-
-**TIER FORGE** is a modern, mobile-friendly web application that lets you create custom tier lists effortlessly — no installations, signups, or ads.
-
-Whether you're ranking your favorite games, snacks, characters, or hot takes, this tool gets out of your way and lets you focus on what matters.
+**A clean, powerful, open‑source tier list maker — ad‑free, account‑free, and built for everyone.**
 
 ---
 
-## Features
+## ⭐ Overview
 
-### Open Source & Free Forever
-- 100% open source — MIT licensed.
-- No trackers. No ads. No upsells.
-- Works entirely client-side — nothing you do is sent anywhere.
+**TIER FORGE** is a modern, mobile‑friendly web app for creating custom tier lists with zero friction.  
+No installs. No signups. No ads. Just pure tier‑making bliss.
 
-### Powerful, Yet Simple
-- **Create tiers** with custom names and colors.
-- **Drag and drop** items into tiers — desktop **and** mobile (iPad, iPhone supported).
-- **Upload image or text items** — choose per item.
-- **Reorder tiers** by dragging.
-- **Delete tiers or items** with a click.
-
-### Clean UI
-- Built-in **dark mode**.
-- **Interactive color picker** with 20 preset options.
-- Responsive layout that adapts to desktop and touch devices.
-
-### Save & Load
-- Export your tier list as:
-  - **JSON**: for re-editing later
-  - **PNG image**: for sharing
-- Import JSON files to reload your tier list exactly as you left it.
+Rank anything — games, snacks, characters, opinions — with a smooth, distraction‑free interface.
 
 ---
 
-## How to Use
+## 🚀 Features
 
-1. **Create Items**:
-   - Click `New Item`
-   - Choose to either upload an image **or** enter a text label
-   - Items will appear in the **item pool** ready to be dragged into tiers
+### **Open Source & Free Forever**
+- MIT‑licensed and fully open source  
+- No trackers, ads, or upsells  
+- Runs entirely client‑side — your data stays with you  
 
-2. **Manage Tiers**:
-   - Use `+ Add Tier` to create a new tier
-   - Click the **tier label** to rename and change color
-   - Drag tiers to reorder them
-   - Use the trash icon to delete a tier
+### **Powerful, Yet Simple**
+- Create tiers with custom names + colors  
+- Drag‑and‑drop items (desktop + mobile)  
+- Add **image** or **text** items  
+- Reorder tiers effortlessly  
+- Delete tiers or items instantly  
 
-3. **Organize Your List**:
-   - Drag items into desired tiers
-   - Drag items back to the item pool to remove them from a tier
-   - Click the x icon on items to delete them completely
+### **Clean, Modern UI**
+- Built‑in dark mode  
+- Interactive color picker with 20 presets  
+- Responsive layout for desktop, tablet, and mobile  
 
-4. **Export & Save**:
-   - Click `Save JSON` to download your current state
-   - Use `Load JSON` to restore it later
-   - Click `Export PNG` to download a screenshot of your tier list
+### **Save & Load**
+Export your tier list as:
+- **JSON** — re‑edit later  
+- **PNG** — share anywhere  
 
----
-
-## Support
-
-If you like **TierForge**, please star the repository and consider following me on GitHub.  
-Your feedback, suggestions, and contributions are always welcome and appreciated!
+Import JSON files to restore your list exactly as you left it.
 
 ---
 
-## Installation
+## 🧩 How to Use
 
-OH MY GOODNESS!!! YOU DON"T NEED TO INSTALL ANYTHING!!! This app runs **fully in the browser**. No build tools required.
+### **1. Create Items**
+- Click **`New Item`**  
+- Choose image upload **or** text label  
+- Items appear in the **item pool** ready for dragging  
 
-### Use Online
+### **2. Manage Tiers**
+- Click **`+ Add Tier`** to create a tier  
+- Click a **tier label** to rename or recolor  
+- Drag tiers to reorder  
+- Use the trash icon to delete  
+
+### **3. Organize Your List**
+- Drag items into tiers  
+- Drag items back to the pool to remove them  
+- Click the **x** on an item to delete it entirely  
+
+### **4. Export & Save**
+- **Save JSON** → download your current state  
+- **Load JSON** → restore a previous list  
+- **Export PNG** → download a screenshot of your tier list  
+
+---
+
+## 💬 Support
+
+If you enjoy **TierForge**, consider starring the repository and following the project on GitHub.  
+Feedback, suggestions, and contributions are always welcome.
+
+---
+
+## 🛠️ Installation
+
+**Good news — you don’t need to install anything.**  
+This app runs **fully in your browser**. No build tools required.
+
+### **Use Online**
 You can [host it yourself](https://bloyomind.github.io/TIER-FORGE/) or open the HTML file locally.
 
-### Local Use
-Clone the repo and open `index.html` in your browser:
+### **Local Use**
+Clone the repo and open `index.html`:
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/tier-list-maker.git
