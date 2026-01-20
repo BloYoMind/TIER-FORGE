@@ -1,5 +1,5 @@
 # **TIER FORGE**
-### **_Coming Late 2026: Tier Forge Desktop App!_**
+### **_Coming Between Late 2026 to Early 2027: Tier Forge Desktop App!_**
 
 **A clean, powerful, open‑source tier list maker — ad‑free, account‑free, and built for everyone.**
 
