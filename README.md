@@ -5,7 +5,7 @@
 
 ---
 
-## ⭐ Overview
+## Overview
 
 **TIER FORGE** is a modern, mobile‑friendly web app for creating custom tier lists with zero friction.  
 No installs. No signups. No ads. Just pure tier‑making bliss.
@@ -14,7 +14,7 @@ Rank anything — games, snacks, characters, opinions — with a smooth, distrac
 
 ---
 
-## 🚀 Features
+## Features
 
 ### **Open Source & Free Forever**
 - MIT‑licensed and fully open source  
@@ -42,7 +42,7 @@ Import JSON files to restore your list exactly as you left it.
 
 ---
 
-## 🧩 How to Use
+## How to Use
 
 ### **1. Create Items**
 - Click **`New Item`**  
@@ -67,14 +67,14 @@ Import JSON files to restore your list exactly as you left it.
 
 ---
 
-## 💬 Support
+## Support
 
 If you enjoy **TierForge**, consider starring the repository and following the project on GitHub.  
 Feedback, suggestions, and contributions are always welcome.
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 **Good news — you don’t need to install anything.**  
 This app runs **fully in your browser**. No build tools required.
